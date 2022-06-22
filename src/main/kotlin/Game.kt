@@ -1,6 +1,6 @@
 fun main(args: Array<String>) {
     val name = "Madrigal"
-    var healthPoints = 100
+    var healthPoints = 89
 
 //    if (healthPoints == 100){
 //        println("$name is in excellent condition!")
@@ -8,7 +8,6 @@ fun main(args: Array<String>) {
 //    else{
 //        println("$name is in awful condition!")
 //    }
-
 
     if (healthPoints == 100) println("$name is in excellent condition!")
     else println("$name is in awful condition!")
