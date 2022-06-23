@@ -6,12 +6,14 @@ fun main(args: Array<String>) {
 
     //Аура
     val auraVisible = isBlessed && healthPoints > 50 || isImmortal
-    if (auraVisible){
-        println("GREEN")
-    }
-    else {
-        println("NONE")
-    }
+//    if (auraVisible){
+//        println("GREEN")
+//    }
+//    else {
+//        println("NONE")
+//    }
+    val auraColor = if (auraVisible) "GREEN" else "NONE"
+    println(auraColor)
 
 //    if (healthPoints == 100){
 //        println("$name is in excellent condition!")
