@@ -64,6 +64,7 @@ fun main(args: Array<String>) {
     else{
         "$name is in awful condition!"
     }
+
     //Состояние игрока
     println("$name $healthStatus")
 
