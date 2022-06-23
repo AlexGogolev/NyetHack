@@ -46,17 +46,31 @@ fun main(args: Array<String>) {
 //    if (healthPoints == 100) println("$name is in excellent condition!")
 //    else println("$name is in awful condition!")
 
-    val healthStatus = if (healthPoints == 100) "$name is in excellent condition!"
-        //else if (healthPoints >= 90) "$name has a few scratches."
-        else if (healthPoints in 90..99) "$name has a few scratches."
-        //else if (healthPoints >= 75)
-        else if (healthPoints in 75..89)
-            if (isBlessed) "$name has some minor wounds but is healing quite quickly!"
-            else "$name has some minor wounds."
-    //        println("$name has some minor wounds.")
-        //else if (healthPoints >= 15) "$name looks pretty hurt."
-        else if (healthPoints in 15..74) "$name looks pretty hurt."
-        else "$name is in awful condition!"
+//    val healthStatus = if (healthPoints == 100) "$name is in excellent condition!"
+//        //else if (healthPoints >= 90) "$name has a few scratches."
+//        else if (healthPoints in 90..99) "$name has a few scratches."
+//        //else if (healthPoints >= 75)
+//        else if (healthPoints in 75..89)
+//            if (isBlessed) "$name has some minor wounds but is healing quite quickly!"
+//            else "$name has some minor wounds."
+//    //        println("$name has some minor wounds.")
+//        //else if (healthPoints >= 15) "$name looks pretty hurt."
+//        else if (healthPoints in 15..74) "$name looks pretty hurt."
+//        else "$name is in awful condition!"
+
+    val healthStatus = when (healthPoints){
+        100 -> "$name is in excellent condition!"
+        in 90..99 -> "$name has a few scratches."
+        in 75..89 ->
+            if (isBlessed){
+                "$name has some minor wounds but is healing quite quickly!"
+            }
+            else {
+                "$name has some minor wounds."
+            }
+        in 15..74 -> "$name looks pretty hurt."
+        else -> {"$name is in awful condition!"}
+    }
 
     //Состояние игрока
     println("$name $healthStatus")

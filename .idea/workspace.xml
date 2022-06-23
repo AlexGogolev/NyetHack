@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="141bf89d-a6f5-4586-b68d-7eed21b367e1" name="Changes" comment="change healthStatus">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="141bf89d-a6f5-4586-b68d-7eed21b367e1" name="Changes" comment="add when">
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Game.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Game.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -143,7 +142,21 @@
       <option name="project" value="LOCAL" />
       <updated>1655975497395</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="change intervals">
+      <created>1655976581461</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1655976581461</updated>
+    </task>
+    <task id="LOCAL-00014" summary="add when">
+      <created>1655979703967</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1655979703967</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -170,6 +183,8 @@
     <MESSAGE value="123" />
     <MESSAGE value="added auraColor" />
     <MESSAGE value="change healthStatus" />
-    <option name="LAST_COMMIT_MESSAGE" value="change healthStatus" />
+    <MESSAGE value="change intervals" />
+    <MESSAGE value="add when" />
+    <option name="LAST_COMMIT_MESSAGE" value="add when" />
   </component>
 </project>
