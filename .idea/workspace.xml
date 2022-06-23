@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="141bf89d-a6f5-4586-b68d-7eed21b367e1" name="Changes" comment="added isImmortal">
+    <list default="true" id="141bf89d-a6f5-4586-b68d-7eed21b367e1" name="Changes" comment="added auraVisible (2)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Game.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Game.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +101,21 @@
       <option name="project" value="LOCAL" />
       <updated>1655966026942</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added auraVisible">
+      <created>1655966824950</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1655966824950</updated>
+    </task>
+    <task id="LOCAL-00008" summary="added auraVisible (2)">
+      <created>1655966886348</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1655966886348</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -121,6 +136,8 @@
     <MESSAGE value="changed _if else if_ to one line" />
     <MESSAGE value="added isBlessed" />
     <MESSAGE value="added isImmortal" />
-    <option name="LAST_COMMIT_MESSAGE" value="added isImmortal" />
+    <MESSAGE value="added auraVisible" />
+    <MESSAGE value="added auraVisible (2)" />
+    <option name="LAST_COMMIT_MESSAGE" value="added auraVisible (2)" />
   </component>
 </project>
