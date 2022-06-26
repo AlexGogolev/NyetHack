@@ -54,13 +54,10 @@ fun main(args: Array<String>) {
 
     val healthStatus = formatHealthStatus(healthPoints, name, isBlessed)
 
-
-    val statusFormatString = "(HP: $healthPoints)(Aura: $auraColor) -> $healthStatus"
-    println(statusFormatString)
+//    val statusFormatString = "(HP: $healthPoints)(Aura: $auraColor) -> $healthStatus"
+//    println(statusFormatString)
     //Состояние игрока
-//    println("(AuraColor: $auraColor) "+
-//            "(Blessed: ${if (isBlessed) "YES" else "NONE"})")
-//    println("$healthStatus")
+    printPlayerStatus(auraColor, isBlessed, healthStatus)
 
     //region test_pattern_str_if
 //    println("***********")
@@ -77,6 +74,13 @@ fun main(args: Array<String>) {
         else -> {}
     }
     //endregion test_when
+
+    castFureball()
+}
+
+private fun printPlayerStatus(auraColor: String, isBlessed: Boolean, healthStatus: String) {
+    println("(AuraColor: $auraColor) " + "(Blessed: ${if (isBlessed) "YES" else "NONE"})")
+    println("$healthStatus")
 }
 
 private fun auraColor(isBlessed: Boolean, healthPoints: Int, isImmortal: Boolean): String {
@@ -107,4 +111,8 @@ private fun formatHealthStatus(healthPoints: Int, name: String, isBlessed: Boole
         }
     }
     return healthStatus
+}
+
+private fun castFureball(){
+    println("A glass of Fireball springs into existence.")
 }
