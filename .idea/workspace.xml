@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="141bf89d-a6f5-4586-b68d-7eed21b367e1" name="Changes" comment="reformat output">
+    <list default="true" id="141bf89d-a6f5-4586-b68d-7eed21b367e1" name="Changes" comment="added fun formatHealthStatus">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Game.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Game.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656246272663</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="added fun formatHealthStatus">
+      <created>1656247671308</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1656247671308</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -202,6 +208,7 @@
     <MESSAGE value="add when" />
     <MESSAGE value="added region test_pattern_str_if" />
     <MESSAGE value="reformat output" />
-    <option name="LAST_COMMIT_MESSAGE" value="reformat output" />
+    <MESSAGE value="added fun formatHealthStatus" />
+    <option name="LAST_COMMIT_MESSAGE" value="added fun formatHealthStatus" />
   </component>
 </project>

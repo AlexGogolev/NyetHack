@@ -3,19 +3,9 @@ fun main(args: Array<String>) {
     var healthPoints = 77
     val isBlessed = true
     val isImmortal = false
+    val auraColor = auraColor(isBlessed, healthPoints, isImmortal)
 
-    //Аура
-    val auraVisible = isBlessed && healthPoints > 50 || isImmortal
-    //region old_condition_auraVisible
-//    if (auraVisible){
-//        println("GREEN")
-//    }
-//    else {
-//        println("NONE")
-//    }
-    //endregion old_condition_auraVisible
-    val auraColor = "${if (auraVisible) "GREEN" else "NONE"}"
-//    println(auraColor)
+    //    println(auraColor)
 
     //region Description
     //    if (healthPoints == 100){
@@ -87,6 +77,21 @@ fun main(args: Array<String>) {
         else -> {}
     }
     //endregion test_when
+}
+
+private fun auraColor(isBlessed: Boolean, healthPoints: Int, isImmortal: Boolean): String {
+    //Аура
+    val auraVisible = isBlessed && healthPoints > 50 || isImmortal
+    //region old_condition_auraVisible
+//    if (auraVisible){
+//        println("GREEN")
+//    }
+//    else {
+//        println("NONE")
+//    }
+    //endregion old_condition_auraVisible
+    val auraColor = "${if (auraVisible) "GREEN" else "NONE"}"
+    return auraColor
 }
 
 private fun formatHealthStatus(healthPoints: Int, name: String, isBlessed: Boolean): String {
