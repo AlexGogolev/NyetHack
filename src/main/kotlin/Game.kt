@@ -14,7 +14,7 @@ fun main(args: Array<String>) {
 //        println("NONE")
 //    }
     //endregion old_condition_auraVisible
-    val auraColor = if (auraVisible) "GREEN" else "NONE"
+    val auraColor = "${if (auraVisible) "GREEN" else "NONE"}"
 //    println(auraColor)
 
     //region Description
@@ -72,14 +72,17 @@ fun main(args: Array<String>) {
         else -> {"$name is in awful condition!"}
     }
 
+
+    val statusFormatString = "(HP: $healthPoints)(Aura: $auraColor) -> $healthStatus"
+    println(statusFormatString)
     //Состояние игрока
-    println("(AuraColor: $auraColor) "+
-            "(Blessed: ${if (isBlessed) "YES" else "NONE"})")
-    println("$healthStatus")
+//    println("(AuraColor: $auraColor) "+
+//            "(Blessed: ${if (isBlessed) "YES" else "NONE"})")
+//    println("$healthStatus")
 
     //region test_pattern_str_if
-    println("***********")
-    println("aaa ${if (1==2) "1" else "2"}")
+//    println("***********")
+//    println("aaa ${if (1==2) "1" else "2"}")
     //endregion region test_pattern_str_if
 
     //region test_when
