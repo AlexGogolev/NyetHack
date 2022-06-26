@@ -77,6 +77,11 @@ fun main(args: Array<String>) {
             "(Blessed: ${if (isBlessed) "YES" else "NONE"})")
     println("$healthStatus")
 
+    //region test_pattern_str_if
+    println("***********")
+    println("aaa ${if (1==2) "1" else "2"}")
+    //endregion region test_pattern_str_if
+
     //region test_when
     val race = "gnome"
     val faction = when (race){
