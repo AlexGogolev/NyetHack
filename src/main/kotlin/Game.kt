@@ -62,15 +62,7 @@ fun main(args: Array<String>) {
 //        else "$name is in awful condition!"
     //endregion
 
-    val healthStatus = when (healthPoints){
-        100 -> "$name is in excellent condition!"
-        in 90..99 -> "$name has a few scratches."
-        in 75..89 ->
-            if (isBlessed) "$name has some minor wounds but is healing quite quickly!"
-            else "$name has some minor wounds."
-        in 15..74 -> "$name looks pretty hurt."
-        else -> {"$name is in awful condition!"}
-    }
+    val healthStatus = formatHealthStatus(healthPoints, name, isBlessed)
 
 
     val statusFormatString = "(HP: $healthPoints)(Aura: $auraColor) -> $healthStatus"
@@ -95,4 +87,19 @@ fun main(args: Array<String>) {
         else -> {}
     }
     //endregion test_when
+}
+
+private fun formatHealthStatus(healthPoints: Int, name: String, isBlessed: Boolean): String {
+    val healthStatus = when (healthPoints) {
+        100 -> "$name is in excellent condition!"
+        in 90..99 -> "$name has a few scratches."
+        in 75..89 ->
+            if (isBlessed) "$name has some minor wounds but is healing quite quickly!"
+            else "$name has some minor wounds."
+        in 15..74 -> "$name looks pretty hurt."
+        else -> {
+            "$name is in awful condition!"
+        }
+    }
+    return healthStatus
 }
