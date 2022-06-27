@@ -75,7 +75,8 @@ fun main(args: Array<String>) {
     }
     //endregion test_when
 
-    castFureball(5)
+    castFireball(5)
+    castFireball()
 }
 
 private fun printPlayerStatus(auraColor: String, isBlessed: Boolean, healthStatus: String) {
@@ -113,6 +114,6 @@ private fun formatHealthStatus(healthPoints: Int, name: String, isBlessed: Boole
     return healthStatus
 }
 
-private fun castFureball(numFireballs: Int){
+private fun castFireball(numFireballs: Int = 2){
     println("A glass of Fireball springs into existence. (x$numFireballs)")
 }
