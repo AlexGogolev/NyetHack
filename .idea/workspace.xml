@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="141bf89d-a6f5-4586-b68d-7eed21b367e1" name="Changes" comment="added fun auraColor" />
+    <list default="true" id="141bf89d-a6f5-4586-b68d-7eed21b367e1" name="Changes" comment="change fun castFireball">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Game.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Game.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -182,7 +185,28 @@
       <option name="project" value="LOCAL" />
       <updated>1656257032660</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="change fun">
+      <created>1656346262440</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1656346262440</updated>
+    </task>
+    <task id="LOCAL-00020" summary="change fun formatHealthStatus">
+      <created>1656346664728</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1656346664728</updated>
+    </task>
+    <task id="LOCAL-00021" summary="change fun castFireball">
+      <created>1656346697219</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1656346697219</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -215,6 +239,9 @@
     <MESSAGE value="reformat output" />
     <MESSAGE value="added fun formatHealthStatus" />
     <MESSAGE value="added fun auraColor" />
-    <option name="LAST_COMMIT_MESSAGE" value="added fun auraColor" />
+    <MESSAGE value="change fun" />
+    <MESSAGE value="change fun formatHealthStatus" />
+    <MESSAGE value="change fun castFireball" />
+    <option name="LAST_COMMIT_MESSAGE" value="change fun castFireball" />
   </component>
 </project>

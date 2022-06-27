@@ -113,6 +113,5 @@ private fun formatHealthStatus(healthPoints: Int, name: String, isBlessed: Boole
     }
 //    return healthStatus
 
-
 private fun castFireball(numFireballs: Int = 2) =
     println("A glass of Fireball springs into existence. (x$numFireballs)")
