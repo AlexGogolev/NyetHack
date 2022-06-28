@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="141bf89d-a6f5-4586-b68d-7eed21b367e1" name="Changes" comment="change fun castFireball">
+    <list default="true" id="141bf89d-a6f5-4586-b68d-7eed21b367e1" name="Changes" comment="111">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Game.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Game.kt" afterDir="false" />
     </list>
@@ -206,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656346697219</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="111">
+      <created>1656348299449</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1656348299449</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -242,6 +249,7 @@
     <MESSAGE value="change fun" />
     <MESSAGE value="change fun formatHealthStatus" />
     <MESSAGE value="change fun castFireball" />
-    <option name="LAST_COMMIT_MESSAGE" value="change fun castFireball" />
+    <MESSAGE value="111" />
+    <option name="LAST_COMMIT_MESSAGE" value="111" />
   </component>
 </project>

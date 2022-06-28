@@ -77,6 +77,7 @@ fun main(args: Array<String>) {
 
     castFireball(5)
     castFireball()
+//    shouldReturnAString()
 }
 
 private fun printPlayerStatus(auraColor: String, isBlessed: Boolean, healthStatus: String) {
@@ -115,3 +116,7 @@ private fun formatHealthStatus(healthPoints: Int, name: String, isBlessed: Boole
 
 private fun castFireball(numFireballs: Int = 2) =
     println("A glass of Fireball springs into existence. (x$numFireballs)")
+
+fun shouldReturnAString(): String {
+    TODO("implement the string building functionality here to return a string")
+}
