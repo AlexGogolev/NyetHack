@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="141bf89d-a6f5-4586-b68d-7eed21b367e1" name="Changes" comment="111">
+    <list default="true" id="141bf89d-a6f5-4586-b68d-7eed21b367e1" name="Changes" comment="add when">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Game.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Game.kt" afterDir="false" />
     </list>

@@ -78,6 +78,8 @@ fun main(args: Array<String>) {
     castFireball(5)
     castFireball()
 //    shouldReturnAString()
+    val stateOfIntoxication = stateOfIntoxication(castFireball(5))
+    println(stateOfIntoxication)
 }
 
 private fun printPlayerStatus(auraColor: String, isBlessed: Boolean, healthStatus: String) {
@@ -115,7 +117,19 @@ private fun formatHealthStatus(healthPoints: Int, name: String, isBlessed: Boole
 //    return healthStatus
 
 private fun castFireball(numFireballs: Int = 2) =
-    println("A glass of Fireball springs into existence. (x$numFireballs)")
+//    println("A glass of Fireball springs into existence. (x$numFireballs)")
+    if (numFireballs in 1..50) numFireballs else 50
+
+private fun stateOfIntoxication(castFireball: Int) =
+    when (castFireball){
+        in 41..50 -> "..t0aSt3d"
+        in 31..40 -> "Stewed"
+        in 21..30 -> "Soused"
+        in 11..20 -> "Sloshed"
+        in 1..10 -> "Tipsy"
+        else -> {""}
+    }
+
 
 fun shouldReturnAString(): String {
     TODO("implement the string building functionality here to return a string")
